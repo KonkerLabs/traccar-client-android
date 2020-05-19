@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Traccar Client</string>
-  <string name="app_logo">Traccar</string>
+  <string name="app_name">Corona Tracker</string>
+  <string name="app_logo">Corona Tracker</string>
   <string name="shortcut_start">Start service</string>
   <string name="shortcut_stop">Stop service</string>
   <string name="shortcut_sos">Send SOS</string>
@@ -31,9 +31,9 @@
   <string name="menu_about">About</string>
   <string name="menu_shortcuts">Add shortcuts</string>
   <string name="menu_clear">Clear</string>
-  <string name="about_description">Real time GPS tracker for Android devices. Compatible with Traccar Server and other tracking systems.</string>
+  <string name="about_description">Real time Corona Tracker for infected patients. Keep record of symptomes as well as personal locomotion. Share this information with public services to allow more effective control of spread of the disease.</string>
   <string name="about_license">This application is free and open source, source code is licensed under Apache License Version 2.0 and available on GitHub.</string>
-  <string name="about_web">For more information visit\nwww.traccar.org/client</string>
+  <string name="about_web">For more information visit\nhttp://coronavirus.konkerlabs.com.\n\n This application is based on software from http://www.traccar.org/client</string>
   <string name="status_service_create">Service started</string>
   <string name="status_service_destroy">Service stopped</string>
   <string name="status_send_success">Send successfully</string>
@@ -42,6 +42,15 @@
   <string name="status_network_online">Network online</string>
   <string name="status_network_offline">Network offline</string>
   <string name="hidden_app_name">Device Settings</string>
-  <string name="hidden_alert">The app has been hidden. To open it again please dial 8722227 (TRACCAR).</string>
+  <string name="hidden_alert">The app has been hidden. To open it again please dial 267662(CORONA) ex: 8722227 (TRACCAR).</string>
   <string name="error_msg_invalid_url">Please enter a valid http:// or https:// URL</string>
+    <string name="title_activity_follow_up">FollowUp</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
